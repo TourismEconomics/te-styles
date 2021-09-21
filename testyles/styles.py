@@ -9,6 +9,10 @@ def init_styles():
     mpl.rcParams['font.family'] = 'sans-serif'
     mpl.rcParams['font.sans-serif'] = 'Lato'
     plt.style.use('https://raw.githubusercontent.com/jackminchin/te-styles/main/oxfordeconomics.mplstyle')
+
+
+    plt.title()
+
     return
 
 

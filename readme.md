@@ -18,3 +18,9 @@ styles.init_styles()
 
 # Examples
 See `examples.ipynb` for a demo.
+
+
+---
+
+# Author & Contributors
+Contact Jack Minchin for any assistance using this package. 

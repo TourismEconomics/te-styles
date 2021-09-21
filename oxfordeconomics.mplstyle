@@ -3,6 +3,7 @@
 axes.titlesize : 10
 axes.labelsize : 9
 lines.markersize : 10
+axes.titleweight: 700
 
 # Grid
 axes.grid: False
