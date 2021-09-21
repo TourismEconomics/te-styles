@@ -17,6 +17,9 @@ styles.init_styles()
 4. Create your plots.
 
 # Examples
+
+![Timeseries example](./examples/ts1.png)
+
 See `examples.ipynb` for a demo.
 
 
