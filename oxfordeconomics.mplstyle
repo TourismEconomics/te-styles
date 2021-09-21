@@ -1,0 +1,35 @@
+# axes
+
+axes.titlesize : 24
+axes.labelsize : 20
+lines.linewidth : 3
+lines.markersize : 10
+xtick.labelsize : 16
+ytick.labelsize : 16
+
+# Grid
+
+axis.grid = False
+
+
+# Lines
+axes.prop_cycle: cycler('color', ['003469', '00addc', '808080', 'bd1b20','d1a21e', '00793f', 'de6328', '965793'])
+lines.linewidth: 1.5
+lines.markeredgewidth: 0.0
+
+# Scatter
+scatter.marker: .
+
+# Ticks
+xtick.labelsize: 13
+xtick.color: (0.2, 0.2, 0.2)
+xtick.direction: in
+
+ytick.labelsize: 13
+ytick.color: (0.2, 0.2, 0.2)
+ytick.direction: in
+
+# Output
+figure.figsize: 7, 5
+figure.dpi: 300
+savefig.dpi: 300
