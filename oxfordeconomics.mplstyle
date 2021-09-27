@@ -1,9 +1,12 @@
 # axes
 
-axes.titlesize : 10
+axes.titlesize : 12
 axes.labelsize : 9
 lines.markersize : 10
 axes.titleweight: 700
+
+
+font.weight:  bold
 
 # Grid
 axes.grid: False
@@ -19,11 +22,11 @@ scatter.marker: .
 
 # Ticks
 xtick.labelsize: 9
-xtick.color: (0.6117647059, 0.6274509804, 0.6274509804)
+xtick.color: (0.396, 0.396, 0.396)
 xtick.direction: in
 
 ytick.labelsize: 9
-ytick.color:  (0.6117647059, 0.6274509804, 0.6274509804)
+ytick.color:  (0.396, 0.396, 0.396)
 ytick.direction: in
 
 # Remove Ticks
@@ -32,7 +35,17 @@ xtick.minor.size: 0
 ytick.major.size: 0
 ytick.minor.size: 0
 
+# Remove Spines
+
+axes.spines.right: False
+axes.spines.top:   False
+axes.edgecolor: (0.396, 0.396, 0.396)
+
+
 # Output
 figure.figsize: 7, 5
 figure.dpi: 300
 savefig.dpi: 300
+
+legend.frameon: False
+legend.fontsize: small
