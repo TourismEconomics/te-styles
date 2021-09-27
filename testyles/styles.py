@@ -23,7 +23,7 @@ def init_styles(styleSheet = mainStyles):
 def subplots(nrows=1, ncols=1, sharex=False, sharey=False, squeeze=True, subplot_kw=None, gridspec_kw=None, **fig_kw):
     fig, axes = plt.subplots(nrows, ncols, sharex=sharex, sharey=sharey, squeeze=squeeze, subplot_kw=subplot_kw, gridspec_kw=gridspec_kw, **fig_kw)
 
-    plt.xlabel('Source: Oxford Economics', wrap=True, horizontalalignment='left', fontsize=8, x=0)
+    plt.xlabel('Source: Tourism Economics', wrap=True, horizontalalignment='left', fontsize=8, x=0)
     return fig, axes
 
 def clear_font_cache():
