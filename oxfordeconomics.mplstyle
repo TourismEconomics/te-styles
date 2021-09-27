@@ -19,11 +19,11 @@ scatter.marker: .
 
 # Ticks
 xtick.labelsize: 9
-xtick.color: (0, 0, 0)
+xtick.color: (153, 153, 153)
 xtick.direction: in
 
 ytick.labelsize: 9
-ytick.color: (0, 0, 0)
+ytick.color: (153, 153, 153)
 ytick.direction: in
 
 # Remove Ticks
