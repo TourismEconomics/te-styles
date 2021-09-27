@@ -3,12 +3,18 @@ import matplotlib as mpl
 import shutil
 import os
 
-def init_styles():
+mainStyles = 'https://raw.githubusercontent.com/TourismEconomics/te-styles/main/oxfordeconomics.mplstyle'
+
+
+def init_styles(styleSheet = mainStyles):
+
+    ''' Initialises styling for TE plots with hosted stylesheet or manual override'''
+
     clear_font_cache()
 
     mpl.rcParams['font.family'] = 'sans-serif'
     mpl.rcParams['font.sans-serif'] = 'Lato'
-    plt.style.use('https://raw.githubusercontent.com/TourismEconomics/te-styles/main/oxfordeconomics.mplstyle')
+    plt.style.use(styleSheet)
 
     return
 
