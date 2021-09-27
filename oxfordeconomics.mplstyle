@@ -26,6 +26,12 @@ ytick.labelsize: 9
 ytick.color: (0, 0, 0)
 ytick.direction: in
 
+# Remove Ticks
+xtick.major.size: 0
+xtick.minor.size: 0
+ytick.major.size: 0
+ytick.minor.size: 0
+
 # Output
 figure.figsize: 7, 5
 figure.dpi: 300
